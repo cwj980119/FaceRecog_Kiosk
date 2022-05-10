@@ -3,11 +3,13 @@
 ## Project setup
 ```
 npm install
+npm install -g @vue/cli
+vue add electron-builder
 ```
 
 ### Compiles and hot-reloads for development
 ```
-npm run serve
+npm run electron:serve
 ```
 
 ### Compiles and minifies for production
